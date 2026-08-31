@@ -1,6 +1,11 @@
+import Navbar from "#components/Navbar";
+
 function App() {
   return (
-    <h1 class="text-black">Hello world!</h1>
+    <main>
+      <Navbar/>
+      <h1 class="text-black">Hello world!</h1>
+    </main>
   );
 }
 
