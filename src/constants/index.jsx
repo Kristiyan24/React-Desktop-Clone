@@ -34,10 +34,43 @@ const WINDOW_CONFIG = {
 };
 
 
+const techStack = [
+  {
+    category: "Frameworks & Libraries",
+    items: ["React.js", "Next.js", "Vue.js", "Nuxt.js"],
+  },
+  {
+    category: "Languages",
+    items: ["JavaScript", "TypeScript", "PHP"],
+  },
+  {
+    category: "Mobile",
+    items: ["React Native", "Expo"],
+  },
+  {
+    category: "Styling",
+    items: ["Tailwind CSS", "Sass", "CSS"],
+  },
+  {
+    category: "Backend",
+    items: ["Node.js", "Express", "Laravel"],
+  },
+  {
+    category: "Database",
+    items: ["MongoDB", "MySQL"],
+  },
+  {
+    category: "Dev Tools",
+    items: ["Git", "GitHub", "Docker"],
+  },
+];
+
+
 export { 
   navLinks, 
   navIcons,
   dockApps,
   INITIAL_Z_INDEX, 
-  WINDOW_CONFIG
+  WINDOW_CONFIG,
+  techStack
 };
