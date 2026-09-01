@@ -1,10 +1,11 @@
 import Navbar from "#components/Navbar";
+import Welcome from "#components/Welcome";
 
 function App() {
   return (
     <main>
-      <Navbar/>
-      <h1 class="text-black">Hello world!</h1>
+      <Navbar />
+      <Welcome />
     </main>
   );
 }
