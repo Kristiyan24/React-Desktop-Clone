@@ -34,7 +34,6 @@ const WINDOW_CONFIG = {
 };
 
 
-
 export { 
   navLinks, 
   navIcons,

@@ -15,7 +15,7 @@ export default defineConfig({
       '#components': resolve(dirname(fileURLToPath(import.meta.url)), 'src/components'),
       '#constants': resolve(dirname(fileURLToPath(import.meta.url)), 'src/constants'),
       '#stores': resolve(dirname(fileURLToPath(import.meta.url)), 'src/stores'),
-      '#hoc': resolve(dirname(fileURLToPath(import.meta.url)), 'src/hoc'),
+      '#hocs': resolve(dirname(fileURLToPath(import.meta.url)), 'src/hocs'),
       '#windows': resolve(dirname(fileURLToPath(import.meta.url)), 'src/windows'),
     }
   }
