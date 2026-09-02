@@ -1,4 +1,8 @@
-export { default as ResumeWindow } from "./Resume";
-export { default as SafariWindow } from "./Safari";
-export { default as FinderWindow } from "./Finder";
-export { default as TerminalWindow } from "./Terminal";
+export { default as Text } from "./Text";
+export { default as Image } from "./Image";
+export { default as Resume } from "./Resume";
+export { default as Safari } from "./Safari";
+export { default as Finder } from "./Finder";
+export { default as Photos } from "./Photos";
+export { default as Contact } from "./Contact";
+export { default as Terminal } from "./Terminal";
