@@ -1,4 +1,4 @@
-import WindowWrapper from "#hocs/WindowsWrapper";
+import WindowWrapper from "#hocs/WindowWrapper";
 import { Check, Flag } from "lucide-react";
 import { techStack } from "#constants";
 import { WindowControls } from "#components";

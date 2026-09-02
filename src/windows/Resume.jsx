@@ -1,6 +1,6 @@
 import "react-pdf/dist/Page/AnnotationLayer.css";
 import "react-pdf/dist/Page/TextLayer.css";
-import WindowWrapper from "#hocs/WindowsWrapper";
+import WindowWrapper from "#hocs/WindowWrapper";
 import { WindowControls } from "#components";
 import { Download } from "lucide-react";
 import { Document, Page, pdfjs } from "react-pdf";
@@ -10,7 +10,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   import.meta.url
 ).toString();
 
-const Resume = () => {
+function Resume() {
   return (
     <>
         <div id="window-header">
@@ -21,7 +21,7 @@ const Resume = () => {
             </a>
         </div>
 
-        <Document file="public/files/resume.pdf">
+        <Document file="files/resume.pdf">
             <Page pageNumber={1} renderTextLayer renderAnnotationLayer />
         </Document>
     </>
